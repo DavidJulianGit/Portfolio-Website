@@ -29,8 +29,10 @@ body{
     line-height: normal;
     color: #4A2769;
 }
-
-
+body::-webkit-scrollbar {
+    width: 0px;
+    
+}
 header{
     width: 100%;
     min-height: 100px;
