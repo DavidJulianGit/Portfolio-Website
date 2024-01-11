@@ -200,7 +200,7 @@ table tr th:first-child {
 }
 form{
     width: 100%;
-    color: undefined;
+   
     margin: 1.5em auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -213,18 +213,22 @@ form{
         -ms-flex-align: center;
             align-items: center;
 }
+form>div{
+    width: 100%;
+    margin-top: 0.5em;
+}
 label{
     width: 100%;
     text-align: left;
     font-weight: 600;
     font-size: 0.85rem;
     color: #5C3082;
-
+    
 }
 input{
     display: block;
     width: 100%;
-    margin: 0.5em 0 1.5em 0;
+    margin: 0.5em 0 0.5em 0;
     padding: 0.75rem;
     width: 100%;
     border-radius: 6px;
@@ -686,4 +690,24 @@ button:hover{
     float: right;
     border-radius: 50%;
     border: 2px solid #5C3082;
+}
+.error-message{
+    padding-left: 1em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #FC5412;
+}
+.success-message{
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    color: #5C3082; 
+    border: 1px solid rgb(255, 157, 0); 
+    border-radius: 4px;;
+    background: rgba(255, 157, 0, 0.1); 
+    outline: none;
+    font-size: 0.9rem; 
+    font-weight: 600;
 }
