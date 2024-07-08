@@ -58,26 +58,70 @@
 		<main>
 			<div class="content">
 				<h1>Get in touch</h1>
-				<div class="icon-container">
-				
-					<a href="https://github.com/DavidJulianGit" target="_blank"
-						><img class="icon-lg" src="./img/icon-github.svg" alt="github icon"
-					/></a>
-					<a
-						href="https://www.linkedin.com/in/david-schindler-51ab37149/"
-						target="_blank"
-						><img
-							class="icon-lg"
-							src="./img/icon-linkedin.svg"
-							alt="linkedin icon"
-					/></a>
+				<form id="contact-form" method="post">
+					<div>
+						<label for="firstname">First Name*</label>
+						<input type="text" id="firstname" name="firstname" required />
+					</div>
+					<div>
+						<label for="lastname">Last Name*</label>
+						<input type="text" id="lastname" name="lastname" required />
+					</div>
+					<div>
+						<label for="phonenumber">Phone number</label>
+						<input type="tel" id="phonenumber" name="phonenumber" />
+					</div>
+					<div>
+						<label for="email">E-Mail*</label>
+						<input type="email" id="email" name="email" required />
+					</div>
+					<div>
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							name="message"
+							maxlength="500"
+							rows="6"
+							cols="2"></textarea>
+					</div>
+					<div>
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+
+				<div class="address">
+					<span class="bold">Mag. David Schindler</span><br />
+					G&auml;ngasse 37<br />
+					5282 Ranshofen<br />
+					Austria<br />
+					<div class="contact-data-container">
+						<div>
+							Tel:<br />
+							Mail:
+						</div>
+						<div>
+							<a href="tel:+436604235407">+43 660 423 54 07</a><br />
+							<a href="mailto:david.schindler@gmx.at"
+								>david.schindler @ gmx.at</a
+							>
+							<br />
+						</div>
+					</div>
+					<div class="cta">
+						<a href="mailto:david.schindler@gmx.at">Contact me</a>
+					</div>
 				</div>
-				
+			</div>
 		</main>
 		<footer>
 			Find me on
 			<div class="icon-container">
-				
+				<a href="#" target="_blank"
+					><img
+						class="icon"
+						src="./img/icon-twitter.svg"
+						alt="twitter icon"
+				/></a>
 				<a href="https://github.com/DavidJulianGit" target="_blank"
 					><img class="icon" src="./img/icon-github.svg" alt="github icon"
 				/></a>
